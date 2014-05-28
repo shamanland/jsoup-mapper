@@ -1,0 +1,11 @@
+apply plugin: 'application'
+
+mainClassName = "com.shamanland.jsoup.mapper.example.JsoupMapperExample"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':lib')
+}
